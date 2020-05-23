@@ -1,0 +1,419 @@
+/* Import Fonts from fonts.css file */
+
+@import url(../css/fonts.css);
+
+/* body {
+    display: block;
+    content: "";
+    clear: both;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+/* Font Awesome */
+
+i.fab {
+    margin: 5px 13px;
+    color: white;
+    font-size: 3.5vw;
+}
+
+i.far {
+    margin: 5px 13px;
+    color: white;
+    font-size: 3.5vw;
+}
+
+@media screen and (max-width:766px) {
+    i.fab {
+        font-size: 5vw;
+    }
+    i.far {
+        font-size: 5vw;
+    }
+}
+
+.container-fluid {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}
+
+
+/* Text Properties */
+
+.jumbo-text {
+    font-family: "Mont-Bold";
+    color: white;
+    font-size: 4vw;
+}
+
+.jumbo-subtext {
+    font-family: "Mont";
+    color: white;
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 766px) {
+    .jumbo-text {
+        font-family: "Mont-Bold";
+        color: white;
+        font-size: 7vw;
+    }
+    .jumbo-subtext {
+        font-family: "Mont";
+        color: white;
+        font-size: 3vw;
+    }
+}
+
+.title {
+    font-family: "Mont-Bold";
+    color: black;
+    font-size: 5vw;
+}
+
+.title-stroke {
+    font-family: "Mont-Bold";
+    color: rgba(255, 255, 255, 0);
+    ;
+    font-size: 5vw;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+@media screen and (max-width: 720px) {
+    .title {
+        font-family: "Mont-Bold";
+        color: black;
+        font-size: 10vw;
+    }
+    .title-stroke {
+        font-family: "Mont-Bold";
+        color: rgba(255, 255, 255, 0);
+        ;
+        font-size: 10vw;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+    }
+}
+
+.subtitle {
+    font-family: "Mont-Bold";
+    font-size: 22pt;
+    margin-top: 5%;
+}
+
+.text {
+    margin-top: 20px;
+    font-family: "Mont";
+}
+
+.subtitle-white {
+    font-family: "Mont-Bold";
+    font-size: 2.5vw;
+    color: white;
+}
+
+.text-white {
+    font-family: "Mont";
+    font-size: 1.5vw;
+    color: white;
+}
+
+@media screen and (max-width: 766px) {
+    .subtitle-white {
+        font-size: 5vw;
+    }
+    .text-white {
+        font-size: 3vw;
+    }
+}
+
+.title-div {
+    padding: 3% 8%;
+}
+
+.content-margin {
+    margin: 8% 8%;
+}
+
+.button-white {
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Mont-Bold";
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.button-white:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-black {
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    font-family: "Mont-Bold";
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.button-black:hover {
+    background-color: black;
+    color: white;
+}
+
+.hidedot {
+    color: white;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: black;
+    font-family: "Mont-Bold";
+    text-align: center;
+}
+
+.navbar img {
+    margin-left: 3em;
+}
+
+.navbar-nav>li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-nav>li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Jumbotron */
+
+.jumbotron-bg {
+    background: black;
+    padding-top: 3%;
+}
+
+.jumbo-left {
+    margin-top: 20%;
+    margin-bottom: 5%;
+    /* margin-left: 13%; */
+    margin-left: 20%;
+    margin-right: 13%;
+}
+
+.jumbo-left-bg {
+    background-image: url("../images/jumbotron_left.png");
+    background-size: cover;
+    /* background-size: contain; */
+}
+
+
+/* About Us */
+
+.client-row {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.client-image {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Project */
+
+
+/* Portfolio */
+
+.portfolio-row {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.video-centered {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* Service */
+
+.card-row {
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+
+
+/* Contact */
+
+.contact {
+    /* z-index: 1000; */
+    /* position: relative; */
+    width: 100%;
+    background: black;
+}
+
+.contact-front {
+    position: absolute;
+    z-index: 1;
+    padding: 4% 10%;
+}
+
+.contact-footer-left {
+    padding: 10%;
+}
+
+@media screen and (max-width: 992px) {
+    .contact-footer-left {
+        display: block;
+    }
+    .contact-front {
+        display: none;
+    }
+    .title-white {
+        font-family: "Mont-Bold";
+        color: white;
+        font-size: 7vw;
+        z-index: 1;
+    }
+    .title-stroke-white {
+        font-family: "Mont-Bold";
+        color: rgba(0, 0, 0, 0);
+        font-size: 7vw;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .contact-footer-left {
+        display: none;
+    }
+    .contact-front {
+        display: block;
+    }
+    .title-white {
+        font-family: "Mont-Bold";
+        color: white;
+        font-size: 6vw;
+        z-index: 1;
+    }
+    .title-stroke-white {
+        font-family: "Mont-Bold";
+        color: rgba(0, 0, 0, 0);
+        font-size: 6vw;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+        z-index: 1;
+    }
+}
+
+
+/* Mouse */
+
+.moving-mouse-holder {
+    margin: auto;
+    /* margin-top: 60px; */
+    margin-bottom: 50px;
+    width: 170px;
+}
+
+.moving-mouse-holder .mouse {
+    width: 26px;
+    height: 40px;
+    position: relative;
+    right: 0;
+    border-radius: 18px;
+    border: 2px solid #ffffff;
+}
+
+.moving-mouse-holder .mouse-button {
+    background-color: #ffffff;
+    width: 4px;
+    height: 10px;
+    border-radius: 2px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin: 0 0 0 -2px;
+    animation: mouse-scroll 1s infinite alternate;
+}
+
+.moving-mouse-holder .text {
+    margin-top: -30px;
+    margin-left: 40px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+@keyframes mouse-scroll {
+    to {
+        transform: translate(0, 10px) scale(1, 0.8);
+    }
+}
+
+.bottom-logo {
+    position: absolute;
+    bottom: 5em;
+    right: 5em;
+    max-width: 8em;
+}

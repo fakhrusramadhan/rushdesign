@@ -1,0 +1,31 @@
+/* @font-face */
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Mont";
+    src: url('../fonts/Mont/Mont-Regular.otf');
+}
+
+@font-face {
+    font-family: "Mont-Bold";
+    src: url('../fonts/Mont/Mont-Bold.otf');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url('../fonts/Open_Sans/OpenSans-Bold.ttf');
+}
